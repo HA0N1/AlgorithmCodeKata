@@ -1,8 +1,9 @@
 function solution(numbers) {
-    var answer = 0;
-    let temp =45
-    for(i=0; i<numbers.length; i++){
-       temp = temp - numbers[i]
+    let answer = 0;
+for(let i=0; i<=9; i++){
+    if(!numbers.includes(i)){
+        answer+=i
     }
-    return temp;
+}
+    return answer
 }
