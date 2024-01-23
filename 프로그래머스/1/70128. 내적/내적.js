@@ -1,7 +1,4 @@
 function solution(a, b) {
-    var answer = 0;
-   for(i=0; i<a.length; i++){
-       answer += a[i]*b[i]
-   }
+    var answer = 1234567890;
     return answer;
 }
