@@ -4,7 +4,6 @@ function solution(numbers) {
     var answer = [];
     
     for(i=0; i<numbers.length; i++){
-        // 시작할 때 마다 1번째가 되므로 같은 수를 더하게 됨 ex) 0+0, 7+7
          for(j=i+1; j<numbers.length; j++){
              answer.push(numbers[i]+numbers[j])
          }
@@ -13,3 +12,4 @@ function solution(numbers) {
 
     return uniqueArr
 }
+//? indexOf나 filter도 사용할 수 있을듯?
