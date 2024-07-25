@@ -1,4 +1,3 @@
 function solution(num_list) {
-    let sortList = num_list.sort((a,b)=>a-b)
-    return sortList.slice(0,5);
+    return num_list.sort((a,b)=>a-b).slice(0,5);
 }
